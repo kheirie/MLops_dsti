@@ -1,6 +1,0 @@
-{
-    "python.analysis.extraPaths": [
-        "./unit_testing_best_practice/src",
-        "./unit_testing_register_users/src"
-    ]
-}
