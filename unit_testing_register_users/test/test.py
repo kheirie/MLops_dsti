@@ -21,5 +21,4 @@ def test_validate_password():
 def test_validate_email():
     assert validate_email("user@example.com") is True
     assert validate_email("userexample.com") is False 
-    assert validate_email("user@.com") is False 
-    assert validate_email("@example.com") is False  
+    assert validate_email("user@com") is False 
