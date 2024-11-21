@@ -32,9 +32,6 @@ jobs:
       run: |
         # stop the build if there are Python syntax errors or undefined names
         # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
-    - name: Set PYTHONPATH
-      run: |
-        echo "PYTHONPATH=$PYTHONPATH:$(pwd)/unit_testing_best_practice/src:$(pwd)/unit_testing_register_users/src" >> $GITHUB_ENV
     - name: Test with pytest
       run: |
         pytest
