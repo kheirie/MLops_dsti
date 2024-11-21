@@ -17,6 +17,7 @@ def test_validate_password():
     assert validate_password("short") is False
     assert validate_password("Password123") is False  
     assert validate_password("12345678") is False  
+    assert validate_password("123short") is False
 
 def test_validate_email():
     assert validate_email("user@example.com") is True
