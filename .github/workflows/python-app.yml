@@ -32,6 +32,11 @@ jobs:
       run: |
         # stop the build if there are Python syntax errors or undefined names
         # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
+    - name: Clear workspace
+      run: |
+        rm -rf *
+        git reset --hard
+        git clean -xdf
     - name: Test with pytest
       run: |
-        pytest
+        pytest -s --disable-warnings
