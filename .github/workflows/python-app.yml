@@ -37,6 +37,10 @@ jobs:
         rm -rf *
         git reset --hard
         git clean -xdf
+    - name: Set PYTHONPATH dynamically for src folders
+      run: |
+        PYTHONPATH=$(find $(pwd) -type d -name "src" | tr '\n' ':')
+        echo "PYTHONPATH=$PYTHONPATH" >> $GITHUB_ENV
     - name: Test with pytest
       run: |
         pytest -s --disable-warnings
