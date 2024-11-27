@@ -8,3 +8,5 @@
 ## Lab Session Docker Conrainers
 - docker ```pull kheiriekaderi/kheirie-docker-image```  then ```docker run kheiriekaderi/kheirie-docker-image``` to check docker created in lab
 - added docker_testing directory to solve the exercise of running a docker container to execute pytests
+## Lab Session Data Versioning
+- Exercises of this lab were applied through the directory data_versioning
