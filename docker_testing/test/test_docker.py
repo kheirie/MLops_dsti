@@ -7,3 +7,4 @@ from mul import *
 def test_answer():
     assert func(3) == 6
     assert func(2) == 4
+    assert func(4) == 8
