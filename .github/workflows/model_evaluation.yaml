@@ -14,4 +14,4 @@ jobs:
           pip install -r model_and_data_testing/requirements.txt
           python model_and_data_testing/wine_linear_regression_test.py
           cat metrics.txt >> report.md
-          cml-send-comment report.md
+          cml comment create report.md
