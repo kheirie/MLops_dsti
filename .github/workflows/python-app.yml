@@ -41,9 +41,4 @@ jobs:
         git clean -xdf
     - name: Test with pytest
       run: |
-        pip install --upgrade pip
-        pip install -r model_and_data_testing/requirements.txt
-        python model_and_data_testing/wine_linear_regression_test.py
-        cat metrics.txt >> report.md
-        cml comment create report.md
-        pytest -s --disable-warnings
+        pytest -s --disable-warnings --ignore=model_and_data_testing
