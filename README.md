@@ -13,3 +13,5 @@
 ## Lab Model Data Testing
 - Exercises of this lab were applied through the directory model_data_testing
 - model_evaluation.yaml file in .github/workflows directory was ran successfully
+## Lab Experiment Tracking
+- Directory experiment_tracking has the updated notebook of initial_elasticnet that has the mlflow code
