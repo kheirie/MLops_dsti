@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/kader/Desktop/MLops/lab2-testing/MLops_dsti/experiment_tracking/mlruns/494864411120273258/4504d3ceb1a24846abee0e05063cfd4f/artifacts
+end_time: 1734254068882
+entry_point_name: ''
+experiment_id: '494864411120273258'
+lifecycle_stage: active
+run_id: 4504d3ceb1a24846abee0e05063cfd4f
+run_name: vaunted-mouse-422
+run_uuid: 4504d3ceb1a24846abee0e05063cfd4f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734254061516
+status: 3
+tags: []
+user_id: kader
